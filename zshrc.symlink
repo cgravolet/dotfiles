@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/cgravolet/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -95,7 +95,7 @@ alias tns='tmux new-session -s'
 export DOTFILES=$HOME/.dotfiles
 
 if [ -z "$THEME" ]; then
-    export THEME="base16-solarized"
+    export THEME="base16-monokai"
 fi
 
 if [ -z "$BACKGROUND" ]; then
