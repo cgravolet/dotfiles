@@ -1,0 +1,13 @@
+set guioptions=r
+set ignorecase
+set hlsearch
+set wrap
+
+nmap ,b :xccmd toggleBreakpointAtCurrentLine<CR>
+nmap ,c :xccmd jumpToNextCounterpart<CR>
+nmap ,d :xccmd jumpToDefinition<CR>
+nmap ,h :xhelp<CR>
+nmap ,n :xccmd goBackInHistoryByCommand<CR>
+nmap ,p :xccmd goForwardInHistoryByCommand<CR>
+nmap ,t :xccmd openQuickly<CR>
+noremap <space> :noh<CR>
