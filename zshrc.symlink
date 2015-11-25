@@ -84,6 +84,7 @@ fi
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias swebs="python -m SimpleHTTPServer"
+alias startvm="VBoxHeadless --startvm Reveal --vrdp=off"
 
 # tmux aliases
 alias ta='tmux attach'
@@ -95,7 +96,7 @@ alias tns='tmux new-session -s'
 export DOTFILES=$HOME/.dotfiles
 
 if [ -z "$THEME" ]; then
-    export THEME="base16-monokai"
+    export THEME="base16-solarized"
 fi
 
 if [ -z "$BACKGROUND" ]; then
