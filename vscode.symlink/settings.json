@@ -1,0 +1,19 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 11,
+    "editor.glyphMargin": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/.sass-cache": true,
+        "**/.svn": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/web/temp": true,
+        "**/CVS": true
+    }
+}
