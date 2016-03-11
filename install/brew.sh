@@ -28,5 +28,6 @@ brew install zsh
 # brew install z
 brew install markdown
 brew install node
+brew install rbenv
 
 exit 0
