@@ -108,3 +108,6 @@ BASE16_SHELL="$DOTFILES/.config/base16-shell/$THEME.$BACKGROUND.sh"
 source $BASE16_SHELL
 
 alias sup='svn update'
+
+# Load rbenv at startup
+eval "$(rbenv init -)"
