@@ -17,7 +17,8 @@ Plug 'tpope/vim-ragtag'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
 " Plug 'benmills/vimux'
-Plug 'bling/vim-airline'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/syntastic'
 " Plug 'benekastah/neomake'
 Plug 'tpope/vim-fugitive'
@@ -62,7 +63,6 @@ Plug 'itspriddle/vim-marked', { 'for': 'markdown', 'on': 'MarkedOpen' }
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'timcharper/textile.vim', { 'for': 'textile' }
-" Plug 'tclem/vim-arduino'
 " Plug 'davidoc/taskpaper.vim'
 
 call plug#end()
