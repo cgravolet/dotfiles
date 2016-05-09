@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(brew common-aliases gem git node npm osx pod svn)
 
 # User configuration
 
@@ -85,6 +85,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="subl ~/.oh-my-zsh"
 alias swebs="python -m SimpleHTTPServer"
 alias startvm="VBoxHeadless --startvm Reveal --vrdp=off"
+alias emacs="/usr/local/bin/emacs"
 
 # tmux aliases
 alias ta='tmux attach'
@@ -111,3 +112,7 @@ alias sup='svn update'
 
 # Load rbenv at startup
 eval "$(rbenv init -)"
+
+# Android SDK
+export ANDROID_HOME=/usr/local/opt/android-sdk
+

@@ -3,8 +3,6 @@ alias ..='cd ..'
 alias l='ls -la'
 alias ll='ls -l'
 alias lld='ls -l | grep ^d'
-alias ta='tmux attach'
-alias rmf='rm -rf'
 
 # custom scripts
 export MY_BIN=~/bin
@@ -13,19 +11,8 @@ export PATH=$MY_BIN:$PATH
 export MY_EDITOR="mvim -v";
 export EDITOR="vim"
 
-# export EDITOR='subl -w'
 # add ~/.node_libraries to the node path
 export NODE_PATH=~/.node_libraries
 
 # setting a custom prompt, with git branch info
 export PS1='[\u:\W]\$ '
-
-# mentis
-mentport="/Users/cgravolet/Developer/mentis/trunk/";
-alias mts="cd $mentport;";
-alias mts_clr="cd $mentport; php app/console cache:clear;";
-alias mts_clr_prod="cd $mentport; php app/console cache:clear --env=prod;";
-alias mts_inst="cd $mentport; php app/console assets:install;";
-alias mts_cmpsw="cd $mentport/src/Mentis/BaseBundle/Resources/public; compass watch;";
-alias mts_asw="cd $mentport; php app/console assetic:dump --watch;";
-alias mts_up="cd $mentport; svn up"

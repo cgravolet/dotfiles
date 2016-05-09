@@ -64,6 +64,7 @@ Plug 'tpope/vim-markdown', { 'for': 'markdown' }
 Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'timcharper/textile.vim', { 'for': 'textile' }
 " Plug 'davidoc/taskpaper.vim'
+Plug 'keith/swift.vim', { 'for': 'swift' }
 
 call plug#end()
 filetype plugin indent on
