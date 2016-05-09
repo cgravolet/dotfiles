@@ -29,5 +29,6 @@ brew install zsh
 brew install markdown
 brew install node
 brew install rbenv
+brew install --with-cocoa --srgb emacs
 
 exit 0
