@@ -86,6 +86,7 @@ alias ohmyzsh="subl ~/.oh-my-zsh"
 alias swebs="python -m SimpleHTTPServer"
 alias startvm="VBoxHeadless --startvm Reveal --vrdp=off"
 alias emacs="/usr/local/bin/emacs"
+alias sup="svn update"
 
 # tmux aliases
 alias ta='tmux attach'
@@ -104,15 +105,14 @@ if [ -z "$BACKGROUND" ]; then
     export BACKGROUND="dark"
 fi
 
-BASE16_SHELL="$DOTFILES/.config/base16-shell/$THEME.$BACKGROUND.sh"
+BASE16_SHELL="$DOTFILES/config.symlink/base16-shell/scripts/$THEME-$BACKGROUND.sh"
 # [[ -s $BASE16_SHELL ]] && source $BASE16_SHELL
 source $BASE16_SHELL
 
-alias sup='svn update'
 
 # Load rbenv at startup
 eval "$(rbenv init -)"
 
 # Android SDK
-export ANDROID_HOME=/usr/local/opt/android-sdk
+# export ANDROID_HOME=/usr/local/opt/android-sdk
 
